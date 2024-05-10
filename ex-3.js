@@ -21,9 +21,9 @@ console.log(
     ", " +
     employee.address.city +
     ", " +
-    employee.address.state +
+    employee.address.states +
     ", " +
     employee.address.country +
     " " +
-    employee.adress.postalCode
+    employee.address.postalCode
 );
