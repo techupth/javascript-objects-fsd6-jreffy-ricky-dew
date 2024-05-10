@@ -13,7 +13,7 @@ product.photo = "https://i01.appmifile.com/webfile/globalimg/products/pc/mi-air-
 product.code = "IT101010";
 product.price = 6000;
 delete product.ratings;
-product.socialMediaShare = 45.5;
+product.facebookShare = 45.5;
 
 console.log(product);
 
