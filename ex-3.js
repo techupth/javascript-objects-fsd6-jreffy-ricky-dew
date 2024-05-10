@@ -1,4 +1,9 @@
 // Exercise #3 Debugging
+// ให้แก้ไข Error ที่เกิดจาก JavaScript โค้ดที่กำหนดให้
+// ผลลัพธ์ของโปรแกรมที่ถูกต้องจะต้องแสดงแบบนี้บนหน้าจอ Console
+//  'Employee Name: John Doe'
+//  'Employee Age: 18'
+//  'Employee Address: 123 Main Street, Cityville, Stateville, Countryland 12345'
 
 // Start coding here
 const employee = {
@@ -13,7 +18,7 @@ const employee = {
   },
 };
 
-console.log("Employee Name: " + employees.name);
+console.log("Employee Name: " + employee.name);
 console.log("Employee Age: " + employee.age);
 console.log(
   "Employee Address: " +
@@ -21,9 +26,9 @@ console.log(
     ", " +
     employee.address.city +
     ", " +
-    employee.address.state +
+    employee.address.states +
     ", " +
     employee.address.country +
     " " +
-    employee.adress.postalCode
+    employee.address.postalCode
 );
